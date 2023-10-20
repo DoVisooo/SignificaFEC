@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marceloflix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="prime-header">
+        <div class="prime-logo" id="marceloflix-logo">Marceloflix</div>
+        <div class="prime-search">
+            <input type="text" id="searchInput" placeholder="Search for a movie..." value="<%= searchQuery %>">
+            <button id="searchButton">Search</button>
+        </div>
+    </header>
+    <main>
+        <div class="results-tab" id="resultsTab">
+            <h2 id="searchResults">Search results</h2>
+            <div class="movie-grid" id="movieList"></div>
+            <div class="movie-loader" id="loader"></div>
+            </div>
+        </div>
+        <div class="favorites-tab" id="favoritesTab">
+            <h2>Favorites</h2>
+            <div class="movie-grid" id="favoritesList"></div>
+            <p id="noFavoritesMessage">No favorites available.</p>
+            </div>
+        </div>
+    </main>
+    <script>
+        const marceloflixLogo = document.getElementById('marceloflix-logo');
+        marceloflixLogo.addEventListener('click', function() {
+            window.location.href = 'Homepage.html';
+        });
+    </script>
+    <script src="movie-search.js"></script>
+</body>
+</html>
