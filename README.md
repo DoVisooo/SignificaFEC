@@ -3,8 +3,8 @@ Significa Frontend Challenge
 
 I chose the Movie search challenge.
 
-I chose to do this challenge in Visual Studio Code due to the reason that I've learned to do things like this there.
-I chose HTML, CSS and JavaScript for this challenge.
+I chose to do this challenge in Visual Studio Code due to the reason that I've learned to do things like this in there.
+I chose HTML, CSS and JavaScript for this challenge. I had to review some concepts and re-learn some things.
 
 I challenged myself to complete this challenge in a day (~24 hours) and I was able to do it.
 I think I wrote a solid application where I'm making API calls (I used OMDb API as suggested), filtering data and shape it to the display on the UI, saving local files with JSON in order to save information (favorites list).
